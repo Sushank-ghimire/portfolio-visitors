@@ -4,10 +4,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon ./src/index.js"
+    "build": "npm install",
+    "serve": "node ./src/index.js"
   },
   "keywords": [
-    "Sushank Ghimire"
+    "Sushank Ghimire portfilio visitors counter."
   ],
   "author": "Sushank Ghimire",
   "license": "ISC",
