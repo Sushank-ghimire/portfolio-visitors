@@ -1,0 +1,22 @@
+{
+  "name": "portfilio-visitors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "Sushank Ghimire"
+  ],
+  "author": "Sushank Ghimire",
+  "license": "ISC",
+  "description": "portfilio visitors at https://ghimiresushank.com.np",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
+}
